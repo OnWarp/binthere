@@ -6,7 +6,7 @@
 import { bytesFromB64url } from '../vendor/bytes.js';
 import { UsageError } from './errors.js';
 
-export const DEFAULT_SERVER = 'https://binthere.gaury.dev';
+export const DEFAULT_SERVER = 'https://binthere.owarp.workers.dev';
 
 const LOCAL_HOSTS = new Set(['localhost', '127.0.0.1', '[::1]']);
 // classPrefix ("k" KV | "b" burn DO) + b64url(random(16)) = 22 chars — SPEC.md §7.

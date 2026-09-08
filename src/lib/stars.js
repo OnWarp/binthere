@@ -25,7 +25,7 @@ export async function fetchStars() {
       headers: {
         // GitHub rejects API requests without a User-Agent and asks that it
         // identify the caller.
-        'user-agent': 'binthere (+https://binthere.gaury.dev)',
+        'user-agent': 'binthere (+https://binthere.owarp.workers.dev)',
         accept: 'application/vnd.github+json',
       },
       // Ignored by `wrangler dev` (no edge cache locally), so dev hits GitHub
